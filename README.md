@@ -1,4 +1,7 @@
 # Toxic_Comments_Classification
+## Deployed it on Heroku
+Check it out: https://ai-toxicity-classifier.herokuapp.com/
+
 Data Set: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/
 
 # Data_info
