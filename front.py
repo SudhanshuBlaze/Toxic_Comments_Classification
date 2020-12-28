@@ -1,7 +1,7 @@
 import joblib
 import spacy
 import streamlit as st
-nlp=spacy.load("en_core_web_lg")
+nlp=spacy.load("en_core_web_sm")
 
 lr_toxic = joblib.load('toxic.joblib')
 lr_stoxic = joblib.load('stoxic.joblib')
