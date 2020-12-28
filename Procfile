@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run front.py
+web: sh setup.sh && python -m spacy download en_core_web_sm && streamlit run front.py
