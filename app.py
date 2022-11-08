@@ -1,15 +1,18 @@
 import joblib
 import spacy
 import streamlit as st
+import subprocess
+
+# loads spacy small model
 nlp=spacy.load("en_core_web_sm")
 
-lr_toxic = joblib.load('toxic.joblib')
-lr_stoxic = joblib.load('stoxic.joblib')
-lr_obscene = joblib.load('obscene.joblib')
-lr_threat = joblib.load('threat.joblib')
-lr_insult = joblib.load('insult.joblib')
-lr_ihate = joblib.load('ihate.joblib')
-tfidf = joblib.load('tfidf.joblib')
+lr_toxic = joblib.load('./models/toxic.joblib')
+lr_stoxic = joblib.load('./models/stoxic.joblib')
+lr_obscene = joblib.load('./models/obscene.joblib')
+lr_threat = joblib.load('./models/threat.joblib')
+lr_insult = joblib.load('./models/insult.joblib')
+lr_ihate = joblib.load('./models/ihate.joblib')
+tfidf = joblib.load('./models/tfidf.joblib')
 
 def prediction(vector_comment):
     mes = "This comment is: "

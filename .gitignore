@@ -1,3 +1,4 @@
 w2v.npz
 .ipynb_checkpoints
 .DS_Store
+*.csv
