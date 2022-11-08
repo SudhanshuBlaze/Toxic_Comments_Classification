@@ -3,5 +3,5 @@ spacy>=3.0.0,<4.0.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 streamlit==0.73.1
 sklearn
-click<7.2.0,>=7.1.1
+click<8
 Exit
